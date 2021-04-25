@@ -1,44 +1,38 @@
-.about p
-{
-    text-align: justify;
+.about p {
+  text-align: justify;
 }
 
-.sect2 h3
-{
+.sect2 h3 {
+  text-align: center;
+}
+
+.dp {
+  width: 150px;
+  border-radius: 100px;
+}
+
+.sect3 h4 {
+  text-align: center;
+}
+
+.sect3 p {
+  text-align: center;
+}
+
+@media only screen and (max-width: 575px) {
+  .about h3 {
     text-align: center;
+  }
+
+  .about p {
+    margin: 0px 20px;
+  }
 }
 
-.dp
-{
-    width: 150px;
-    border-radius: 100px;
-}
+.logo {
+  display: flex;
+  justify-content: center;
 
-.sect3 h4
-{
-    text-align: center;
-}
-
-.sect3 p
-{
-    text-align: center;
-}
-
-@media only screen and (max-width: 575px) 
-{
-    .logo
-    {
-        display: flex;
-        justify-content: center;
-    }
-
-    .about h3
-    {
-        text-align: center;
-    }
-
-    .about p
-    {
-        margin: 0px 20px;
-    }
+  align-items: center;
+  padding: 30px;
 }
